@@ -13,9 +13,9 @@ export const Home = () => {
 
   
 
-    tl.from(".homeHeading",{
-      y: 50,
-      opacity: 0,
+    tl.to(".homeHeading",{
+      y: -50,
+      opacity: 100,
       duration:1,
       delay: 0.5
 
@@ -64,7 +64,7 @@ export const Home = () => {
 
       <section className='h-[50vh] w-full p-[2vw] pt-[10vw] flex justify-between'>
         <div className='flex flex-col gap-[1vw]'>
-          <h3 className='homeHeading text-[7vw] leading-[6vw] '>ANIMATRIX.</h3>
+          <h3 className='homeHeading text-[7vw] leading-[6vw] translate-y-52 opacity-0'>ANIMATRIX.</h3>
 
           <div className='flex items-center gap-2 '>
             <div className='h-[0.1vw] w-[5vw] bg-black'></div>
