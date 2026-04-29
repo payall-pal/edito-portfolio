@@ -1,1 +1,1 @@
-Animatrix - a video editor and motion graphics artist portfolio 
+Animatrix - a video editor and motion graphix artist portfolio
