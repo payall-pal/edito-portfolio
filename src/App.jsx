@@ -3,7 +3,7 @@ import Lenis from 'lenis'
 import { useEffect } from 'react'
 import Home from './components/Home'
 import Nav from './components/Nav/Nav'
-import LongProjects from './components/Projects/Projects'
+import Projects from './components/Projects/Projects'
 
 const App=()=>{
 

@@ -1,6 +1,6 @@
 import { useRef, useState } from "react"
 
-const Projects=()=>{
+const Projects =()=>{
 
     const videoRef = useRef(null)
     const [isplaying, setIsplaying] = useState(false)
